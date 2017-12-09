@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+.app {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #fffef7;
+    font-family: MinionPro-Regular,Georgia,Times,Times New Roman,serif;
+    color: #2c3b4b;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    flex: 1;
+}
+
+/*!*screen-xs*!*/
+/*@media (max-width: 768px) {*/
+    /**/
+/*}*/
+/*!*screen-sm*!*/
+/*@media (min-width: 768px) and (max-width: 992px) {*/
+    /**/
+/*}*/
+/*!*screen-md*!*/
+/*@media (min-width: 992px) and (max-width: 1200px) {*/
+    /**/
+/*}*/
+/*!*screen-lg corresponds with col-lg*!*/
+/*@media (min-width: 1200px) {*/
+    /**/
+/*}*/

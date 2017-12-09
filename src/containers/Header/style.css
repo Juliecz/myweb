@@ -1,0 +1,85 @@
+.header {
+
+}
+
+.topbar {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+.navigation {
+    border-bottom: 1px solid #eee;
+    width: 90%;
+    margin: auto;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #2c3b4b;
+}
+
+.navigation-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-logo {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-logo > div {
+    align-self: center;
+}
+
+.navigation-menu {
+    height: 100px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-menu-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.navigation-menu-list li {
+    display: inline;
+    padding: 0;
+    align-self: center;
+}
+
+.navigation-menu-list li a {
+    padding-bottom: 10px;
+}
+
+.navigation-menu-list li.active a {
+    color: #ff7055;
+    border-bottom: 3px solid #ff7055;
+}
+
+.navigation-menu-list li a:hover {
+    color: #ff7055;
+}
+
+.banner {
+     height: 600px;
+     background-color: #eee;
+ }
+
+/*screen-xs*/
+@media (max-width: 768px) {
+    .navigation-logo {
+        border-bottom: 1px solid #eee;
+    }
+}
+/*screen-sm*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .navigation-logo {
+        border-bottom: 1px solid #eee;
+    }
+}

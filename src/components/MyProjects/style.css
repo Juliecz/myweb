@@ -1,0 +1,11 @@
+.myprojects-title {
+    padding: 30px;
+    font-weight: 600;
+}
+
+.myprojects-items {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

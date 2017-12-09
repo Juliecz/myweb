@@ -1,0 +1,35 @@
+.skills {
+
+}
+
+.skills-table {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skills-table-title {
+    font-weight: 600;
+}
+
+.skills-table tbody tr td {
+    /*border-top: none !important;*/
+    border-top-style: hidden !important;
+    padding: 7px 10px 7px 10px;
+}
+
+.skills-table-left {
+    width: 40%;
+    text-align: right;
+    border-right: 1px solid #eee;
+}
+.skills-table-right {
+    width: 60%;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+.skills-table-left * {
+    font-weight: 600;
+}
