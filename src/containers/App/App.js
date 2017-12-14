@@ -1,27 +1,33 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+import * as selectorsRouting from '../../selectors/routing';
+import * as selectorsApp from '../../selectors/app';
+
+import Header from '../../components/partials/Header/Header';
+import Footer from '../../components/partials/Footer/Footer';
 import './style.css';
 
 class App extends Component {
 	render() {
-		const { children } = this.props;
+		const { props } = this;
 		
 		return (
 			<div className="app">
-				<Header />
+				<Header {...props} />
 				<div className="content">
-					{ children }
+					{ props.children }
 				</div>
-				<Footer />
+				<Footer {...props}  />
 			</div>
 		);
 	}
 }
 
-const mapStateToProps = (state) => ({ });
+const mapStateToProps = (state) => ({
+	app: selectorsApp.selectApp(state),
+	location: selectorsRouting.selectCurrentLocation(state)
+});
 
 const mapDispatchToProps = (dispatch) => ({});
 

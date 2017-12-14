@@ -2,8 +2,8 @@ import { createSelector } from 'reselect';
 
 const getAboutMe = state => state.aboutme;
 
-export const selectSkills = createSelector(
+export const selectAboutMe = createSelector(
 	[getAboutMe],
 	(aboutme) =>
-		aboutme ? aboutme.skills : null
+		aboutme || null
 );

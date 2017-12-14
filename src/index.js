@@ -10,10 +10,10 @@ import store from './store';
 import registerServiceWorker from './registerServiceWorker';
 
 import App from './containers/App/App';
-import Test from './containers/Test/Test';
-import MyProjects from './containers/MyProjects/MyProjects';
-import AboutMe from './containers/AboutMe/AboutMe';
-import Contact from './containers/Contact/Contact';
+import Test from './containers/Test';
+import MyProjects from './containers/MyProjects';
+import AboutMe from './containers/AboutMe';
+import Contact from './containers/Contact';
 
 const history = syncHistoryWithStore(browserHistory, store);
 

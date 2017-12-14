@@ -2,8 +2,8 @@ import { createSelector } from 'reselect';
 
 const getApp = state => state.app;
 
-export const selectNavigation = createSelector(
+export const selectApp = createSelector(
 	[getApp],
 	(app) =>
-		app ? app.navigation : null
+		app || null
 );

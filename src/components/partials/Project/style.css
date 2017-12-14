@@ -1,0 +1,14 @@
+.project {
+    width: 85%;
+    max-width: 380px;
+    min-height: 400px;
+    /*border: 2px solid #ff7055;*/
+    margin: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-top: 5px solid #2c3b4b;
+    border-bottom: 15px solid #2c3b4b;
+}
