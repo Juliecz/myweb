@@ -1,35 +1,44 @@
 .skills {
-
-}
-
-.skills-table {
-    width: 90%;
-    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 92%;
+    min-width: 320px;
     margin: auto;
 }
 
-.skills-table-title {
-    font-weight: 600;
-}
-
-.skills-table tbody tr td {
-    /*border-top: none !important;*/
-    border-top-style: hidden !important;
-    padding: 7px 10px 7px 10px;
-}
-
-.skills-table-left {
-    width: 40%;
-    text-align: right;
-    border-right: 1px solid #eee;
-}
-.skills-table-right {
-    width: 60%;
+.skills > div {
+    width: 50%;
+    padding: 15px 15px 15px 45px;
+    max-width: 600px;
+    min-width: 300px;
     text-align: left;
-    font-weight: 600;
-    padding-left: 40px;
+    border-bottom: 1px solid #dbdbdb;
 }
 
-.skills-table-left * {
-    font-weight: 600;
+.skills-tech {
+    border-right: 1px solid #dbdbdb;
+}
+
+/*.skills-blocks {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*width: 85%;*/
+    /*min-width: 40px;*/
+    /*margin: auto;*/
+
+/*}*/
+
+/*.skills-blocks > div {*/
+    /*!*margin: 7px;*!*/
+    /*!*padding: 15px;*!*/
+    /*text-align: left;*/
+/*}*/
+
+.skills-block-texts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

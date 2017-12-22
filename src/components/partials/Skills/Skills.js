@@ -1,45 +1,54 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Table } from 'react-bootstrap';
+import Tag from '../Tag/Tag';
 import './style.css';
 
-const Skills = ({ skills }) => (
-	<div className="skills">
-		<Table className="skills-table">
-			{ skills.map((skillType, i) => (
-				<tbody key={`skills${i}`}>
-				<tr key={`skillType${i}`}>
-					<td colSpan={2}>
-						<h3
-							className="skills-table-title"
-						>
-							{skillType.name.toUpperCase()}
-						</h3>
-					</td>
-				</tr>,
-				{ skillType.types.map((type, i) => (
-					<tr key={`skillTypes${i}`}>
-						<td
-							className="skills-table-left"
-						>
-							<h4>{type.name.toUpperCase()}</h4>
-						</td>
-						<td
-							className="skills-table-right"
-						>
-							<h4>{type.text}</h4>
-						</td>
-					</tr>
-				))}
-				</tbody>
-			)) }
-		</Table>
-	</div>
-);
+const Skills = ({ skills }) => {
+	const { tech } = skills;
+	return (
+		<div className="skills">
+			<div className="skills-tech">
+				<h3>TECHNICAL SKILLS</h3>
+				<div className="skills-blocks">
+					{ tech && tech.types && tech.types.map((skill, i) =>
+						(skill.name.toLowerCase() === 'languages') ?
+							(<div
+								key={`skill_${i}`}
+								className="skills-block"
+							>
+								klfslkdfs {skill.name}
+							</div>)
+							: (<div
+								key={`skill_${i}`}
+								className="skills-block"
+							>
+								<h4>
+									<span> img </span>
+									{skill.name}
+								</h4>
+								<div className="skills-block-texts">
+									{skill.texts && skill.texts.map((text, _i) =>
+										<Tag
+											key={`text_${_i}`}
+											text={text}
+										/>
+									)}
+								</div>
+							</div>)
+					) }
+				</div>
+			</div>
+			<div className="skills-lang">
+				<h3> Languages </h3>
+			
+			</div>
+		</div>
+	);
+};
 
 Skills.propTypes = {
-	skills: PropTypes.array.isRequired
+	skills: PropTypes.object.isRequired
 };
 
 export default Skills;

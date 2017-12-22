@@ -14,6 +14,7 @@ const MyProjects = ({ src, alt, url, name, description }) => (
 			: <Image src={src} alt={alt} />
 		}
 		<h4>{name.toUpperCase()}</h4>
+		<div className="project-line" />
 		<p>{description}</p>
 	</div>
 );

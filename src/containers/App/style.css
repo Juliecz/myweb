@@ -9,7 +9,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: #fffef7;
+    background-color: #f8f8f8; /* #fffef7; */
     font-family: MinionPro-Regular,Georgia,Times,Times New Roman,serif;
     color: #2c3b4b;
     -webkit-font-smoothing: antialiased;
