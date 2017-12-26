@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 
+import TopBar from './components/TopBar/TopBar';
 import Navigation from './components/Navigation/Navigation';
 import './style.css';
 
@@ -9,6 +10,7 @@ class Header extends PureComponent {
 		const { navigation } = app;
 		
 		return (<header className="header">
+			<TopBar />
 			<Navigation
 				navigation={navigation}
 				location={location}

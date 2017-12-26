@@ -25,7 +25,7 @@ export default (props) => {
 				className="navigation-menu"
 			>
 				<ul className="navigation-menu-list">
-					{ navigation.map((item) =>
+					{ navigation && navigation.map((item) =>
 						(<li key={`navigation_${item.route}`} className={item.route === location.pathname ? 'active' : ''}>
 							<Link to={item.route}>{item.name}</Link>
 						</li>)) }

@@ -5,12 +5,10 @@ import * as selectorsMyProjects from '../selectors/myprojects';
 
 import Projects from '../components/pages/MyProjects/MyProjects';
 
-// import './style.css';
-
 class MyProjects extends PureComponent {
 	render() {
 		return (
-			<Projects {...this.props.myprojects}/>
+			<Projects {...this.props.myprojects} />
 		);
 	}
 }
