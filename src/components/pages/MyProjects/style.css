@@ -1,18 +1,25 @@
+.myprojects {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.myprojects-left, .myprojects-right {
+    width: 50%;
+    max-width: 500px;
+    min-width: 450px;
+}
+
+.myprojects-left {
+}
+
+.myprojects-right {
+}
+
 .myprojects-title {
     padding: 30px;
     font-weight: 600;
-}
-
-.myprojects-items {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.project-line {
-    height: 1px;
-    width: 50px;
-    margin: 10px auto;
-    border-top: 1px solid #ff7055;
 }

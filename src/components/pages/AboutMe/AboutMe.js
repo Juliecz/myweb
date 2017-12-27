@@ -9,9 +9,7 @@ class AboutMe extends PureComponent {
 		
 		return (<div className="aboutme">
 			{ skills &&
-			<Skills
-				skills={skills}
-			/>
+			<Skills skills={skills} />
 			}
 		</div>);
 	}

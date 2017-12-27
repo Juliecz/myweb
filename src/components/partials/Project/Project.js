@@ -13,7 +13,7 @@ const MyProjects = ({ src, alt, url, name, description }) => (
 			</a>
 			: <Image src={src} alt={alt} />
 		}
-		<h4>{name.toUpperCase()}</h4>
+		<h4 className="project-title">{name.toUpperCase()}</h4>
 		<div className="project-line" />
 		<p>{description}</p>
 	</div>

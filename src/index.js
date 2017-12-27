@@ -3,17 +3,13 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { IndexRoute, Router, Route, browserHistory } from 'react-router';
 import { syncHistoryWithStore } from 'react-router-redux';
-// import '../node_modules/bootstrap/dist/css/bootstrap.css';
-// import '../node_modules/bootstrap/dist/css/bootstrap-theme.css';
 
 import store from './store';
 import registerServiceWorker from './registerServiceWorker';
 
 import App from './containers/App/App';
+import Main from './containers/Main';
 import Test from './containers/Test';
-import MyProjects from './containers/MyProjects';
-import AboutMe from './containers/AboutMe';
-import Contact from './containers/Contact';
 
 const history = syncHistoryWithStore(browserHistory, store);
 
@@ -21,9 +17,7 @@ ReactDOM.render(
 	<Provider store={store}>
 		<Router history={history}>
 			<Route path="/" component={App}>
-				<IndexRoute components={AboutMe}/>
-				<Route path="/myprojects" components={MyProjects}/>
-				<Route path="/contact" components={Contact}/>
+				<IndexRoute components={Main}/>
 				<Route path="/test" components={Test}/>
 			</Route>
 		</Router>
