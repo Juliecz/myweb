@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import * as selectorsMyProjects from '../selectors/myprojects';
 
-import Projects from '../components/pages/MyProjects/MyProjects';
+import Projects from '../components/common/MyProjects/MyProjects';
 
 class MyProjects extends PureComponent {
 	render() {

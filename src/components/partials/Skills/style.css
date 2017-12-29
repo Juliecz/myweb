@@ -8,7 +8,7 @@
     margin: auto;
 }
 
-.skills > div {
+.skills-common {
     width: 50%;
     padding: 15px 15px 15px 45px;
     max-width: 600px;
@@ -19,6 +19,14 @@
 
 .skills-tech {
     border-right: 1px solid #dbdbdb;
+}
+
+.skills-lang {
+    margin-top: 80px;
+}
+
+.skills-icon {
+    margin: 0 10px 5px 10px;
 }
 
 /*.skills-blocks {*/

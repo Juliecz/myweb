@@ -1,0 +1,45 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.banner > div {
+    /*border: 1px solid black;*/
+}
+
+.banner-title {
+    flex: 2;
+    margin: auto;
+}
+.banner-photo {
+    flex: 1;
+    float: left;
+}
+
+.banner a {
+    text-decoration: none;
+    color: #2c3b4b;
+}
+
+.banner-title-big {
+     font-size: 55px;
+     font-weight: 600;
+ }
+
+.banner-title-small {
+    font-size: 18px;
+    /*font-weight: 600;*/
+    /*color: rgba(44, 59, 75, 0.37);*/
+    color: rgb(242, 182, 50);
+}
+
+.banner-photo img {
+    z-index: 10;
+    width: 230px;
+    height: auto;
+    -webkit-box-shadow: inset 0px -1px 66px 1px rgba(240,240,240,1);
+    -moz-box-shadow: inset 0px -1px 66px 1px rgba(240,240,240,1);
+    box-shadow: inset 1px 1px 20px 3px #eeeeee;
+}

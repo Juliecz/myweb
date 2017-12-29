@@ -1,0 +1,11 @@
+.header {
+    min-height: 500px;
+    /* TODO background diagonal */
+    /*-webkit-clip-path: polygon(100% 0, 100% 53%, 100% 100%, 0 71%, 0 48%, 0 0);*/
+    /*clip-path: polygon(100% 0, 100% 53%, 100% 100%, 0 71%, 0 48%, 0 0);*/
+    /*background-color: #ffe7ac;*/
+    /*background:*/
+        /*linear-gradient(200deg, rgba(255, 145, 0, 0.89), rgb(255, 253, 219));*/
+        /*radial-gradient(at 50% 100px, black, transparent 40%),*/
+    /*box-shadow: 5px 5px 40px 12px black;*/
+}

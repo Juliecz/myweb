@@ -1,12 +1,3 @@
-.header {
-
-}
-
-.topbar {
-    border-bottom: 1px solid #eee;
-    padding: 10px;
-}
-
 .navigation {
     /*border-bottom: 1px solid #eee;*/
     margin: auto;
@@ -65,10 +56,6 @@
     color: #ff7055;
 }
 
-.banner {
-     height: 600px;
-     background-color: #eee;
- }
 
 /*screen-xs*/
 @media (max-width: 768px) {

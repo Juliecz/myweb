@@ -1,0 +1,13 @@
+.topbar {
+    border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10% 10px 10%;
+}
+
+
+.topbar-social-icon {
+    width: 40px;
+    color: #2c3b4b;
+}

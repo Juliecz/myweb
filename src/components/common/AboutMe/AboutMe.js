@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import Skills from '../../partials/Skills/Skills';
 
-// import './style.css';
+import './style.css';
 
 class AboutMe extends PureComponent {
 	render() {

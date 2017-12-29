@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import * as selectorsAboutMe from '../selectors/aboutme';
 
-import About from '../components/pages/AboutMe/AboutMe';
+import About from '../components/common/AboutMe/AboutMe';
 
 class AboutMe extends PureComponent {
 	render() {
