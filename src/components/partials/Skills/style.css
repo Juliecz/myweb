@@ -29,21 +29,17 @@
     margin: 0 10px 5px 10px;
 }
 
-/*.skills-blocks {*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
-    /*width: 85%;*/
-    /*min-width: 40px;*/
-    /*margin: auto;*/
+.skills-blocks {
+    list-style-type: none;
 
-/*}*/
+}
 
-/*.skills-blocks > div {*/
-    /*!*margin: 7px;*!*/
-    /*!*padding: 15px;*!*/
-    /*text-align: left;*/
-/*}*/
+.skills-block-title > span img {
+    width: 17px;
+    height: 17px;
+    margin: -5px 5px 0 0;
+
+}
 
 .skills-block-texts {
     display: flex;

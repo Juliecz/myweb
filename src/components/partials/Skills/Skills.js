@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import * as Icons from 'react-icons/lib/fa';
 
 import Tag from '../Tag/Tag';
+import ListStyle from '../../../assets/list-style.png';
 import './style.css';
 
 const Skills = ({ skills }) => {
@@ -23,15 +24,25 @@ const Skills = ({ skills }) => {
 							key={`skill_${i}`}
 							className="skills-block"
 						>
-							<h4>
-								{skill.name}
+							<h4 className="skills-block-title">
+								<span>
+									<img src={ListStyle} alt="List style"/>
+								</span>{skill.name}
 							</h4>
 							<div className="skills-block-texts">
 								{skill.texts && skill.texts.map((text, _i) =>
-									<Tag
-										key={`text_${_i}`}
-										text={text}
-									/>
+									[
+										<Tag
+											key={`text_${_i}`}
+											text={text}
+										/>,
+										_i !== skill.texts.length-1 &&
+										<span
+											style={{
+												color: '#e2e2e2'
+											}}
+										>/</span>
+									]
 								)}
 							</div>
 						</li>)
