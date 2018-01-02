@@ -8,7 +8,7 @@ import ListStyle from '../../../assets/list-style.png';
 import './style.css';
 
 const Skills = ({ skills }) => {
-	const { tech } = skills;
+	const { tech, lang } = skills;
 	return (
 		<div className="skills">
 			<div className="skills-tech skills-common">
@@ -57,18 +57,13 @@ const Skills = ({ skills }) => {
 						size={30}
 						className="skills-icon"
 					/>
-					LANGUAGES
+					{lang.name.toUpperCase()}
 				</h3>
-				<div>
-					<ProgressBar key={'lang-cz'}/>
+				<div className="skills-lang-progress">
+					{lang.types && lang.types.map((type, i) =>
+						<ProgressBar {...type} />
+					)}
 				</div>
-				<div>
-					<ProgressBar key={'lang-en'}/>
-				</div>
-				<div>
-					<ProgressBar key={'lang-ru'}/>
-				</div>
-			
 			</div>
 		</div>
 	);

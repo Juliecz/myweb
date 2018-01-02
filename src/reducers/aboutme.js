@@ -22,11 +22,7 @@ const initialState = {
 				{
 					name: 'DevOps',
 					texts: ['git', 'heroku']
-				},
-				/*{
-					name: 'Languages',
-					texts: ['Czech: fluent (speaking, reading, writing)', 'Russian: native language', 'English: intermediate (reading tech documentation)']
-				}*/
+				}
 			]
 		},
 		lang: {
@@ -34,14 +30,17 @@ const initialState = {
 			types: [
 				{
 					name: 'Czech',
+					percent: 85,
 					texts: ['fluent (speaking, reading, writing)']
 				},
 				{
 					name: 'Russian',
+					percent: 100,
 					texts: ['native language']
 				},
 				{
 					name: 'English',
+					percent: 48,
 					texts: ['intermediate (reading tech documentation)']
 				}
 			]

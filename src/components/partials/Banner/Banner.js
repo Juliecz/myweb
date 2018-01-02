@@ -11,6 +11,7 @@ export default () =>
 			<p className="banner-title-big">
 				<Link to="/"> Yuliya Ovchinnikova </Link>
 			</p>
+			<hr/>
 			<p className="banner-title-small">
 				Full-Stack JavaScript Developer
 			</p>

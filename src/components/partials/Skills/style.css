@@ -21,8 +21,14 @@
     border-right: 1px solid #dbdbdb;
 }
 
-.skills-lang {
-    margin-top: 80px;
+.skills-lang-progress {
+    width: 70%;
+    margin-top: 50px;
+    max-width: 320px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .skills-icon {
@@ -35,9 +41,9 @@
 }
 
 .skills-block-title > span img {
-    width: 17px;
-    height: 17px;
-    margin: -5px 5px 0 0;
+    width: 10px;
+    height: 10px;
+    margin: -2px 5px 0 0;
 
 }
 
