@@ -34,15 +34,15 @@ const initialState = {
 			types: [
 				{
 					name: 'Czech',
-					texts: ['fluently']
+					texts: ['fluent (speaking, reading, writing)']
 				},
 				{
 					name: 'Russian',
-					texts: ['native speaker']
+					texts: ['native language']
 				},
 				{
 					name: 'English',
-					texts: ['intermediate']
+					texts: ['intermediate (reading tech documentation)']
 				}
 			]
 		}

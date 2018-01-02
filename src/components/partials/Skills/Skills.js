@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import * as Icons from 'react-icons/lib/fa';
 
 import Tag from '../Tag/Tag';
+import ProgressBar from '../ProgressBar/ProgressBar';
 import ListStyle from '../../../assets/list-style.png';
 import './style.css';
 
@@ -38,6 +39,7 @@ const Skills = ({ skills }) => {
 										/>,
 										_i !== skill.texts.length-1 &&
 										<span
+											key={`text_span_${_i}`}
 											style={{
 												color: '#e2e2e2'
 											}}
@@ -57,6 +59,15 @@ const Skills = ({ skills }) => {
 					/>
 					LANGUAGES
 				</h3>
+				<div>
+					<ProgressBar key={'lang-cz'}/>
+				</div>
+				<div>
+					<ProgressBar key={'lang-en'}/>
+				</div>
+				<div>
+					<ProgressBar key={'lang-ru'}/>
+				</div>
 			
 			</div>
 		</div>

@@ -11,9 +11,7 @@
 
 
 .topbar-social-icon {
-    /*width: 20px;*/
-    /*height: 20px;*/
-    margin: 5px;
+    margin: 7px 5px 5px 7px;
     color: #252839;
     -webkit-transition : 0.35s all ease;
     -moz-transition : 0.35s all ease;
@@ -22,5 +20,5 @@
 }
 
 .topbar-social-icon:hover {
-    color: #f2b632;
+    color: #f28c20;
 }
