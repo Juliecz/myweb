@@ -10,7 +10,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color: #f8f8f8; /* #fffef7; */
+    background-color: #f8f8f8;
     /*font-family: MinionPro-Regular,Georgia,Times,Times New Roman,serif;*/
     font-family: 'Poppins', sans-serif;
     color: #252839;
