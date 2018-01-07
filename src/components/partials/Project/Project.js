@@ -1,6 +1,4 @@
 import React from 'react';
-
-import * as images from './assets/index';
 import Image from './Image';
 
 import './style.css';

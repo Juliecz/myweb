@@ -10,7 +10,7 @@
 .myprojects-left, .myprojects-right {
     width: 50%;
     max-width: 500px;
-    min-width: 450px;
+    min-width: 350px;
 }
 
 .myprojects-left {
@@ -22,4 +22,10 @@
 .myprojects-title {
     padding: 30px;
     font-weight: 600;
+}
+
+@media (max-width: 800px) {
+    .myprojects-left, .myprojects-right {
+        min-width: 300px;
+    }
 }

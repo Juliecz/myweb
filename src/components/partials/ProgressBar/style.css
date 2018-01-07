@@ -1,5 +1,4 @@
 .progressbar {
-
 }
 
 #progressbar-img {
@@ -13,4 +12,5 @@
 }
 .progress {
     height: 5px;
+    width: 98%;
 }

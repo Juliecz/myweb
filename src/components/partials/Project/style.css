@@ -13,8 +13,6 @@
     transition: 0.5s all ease;
 }
 .project:hover {
-    /*width: 380px;*/
-    /*padding: 60px 25px 60px 25px;*/
     -webkit-transform: scale(1.07);
     -moz-transform: scale(1.07);
     -ms-transform: scale(1.07);
@@ -47,4 +45,10 @@
 .project-title {
     color: #f28c20;
     font-weight: 700;
+}
+
+@media (max-width: 800px) {
+    .project {
+        width: 280px;
+    }
 }

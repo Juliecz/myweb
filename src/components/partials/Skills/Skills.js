@@ -25,11 +25,11 @@ const Skills = ({ skills }) => {
 							key={`skill_${i}`}
 							className="skills-block"
 						>
-							<h4 className="skills-block-title">
+							<h5 className="skills-block-title">
 								<span>
 									<img src={ListStyle} alt="List style"/>
 								</span>{skill.name}
-							</h4>
+							</h5>
 							<div className="skills-block-texts">
 								{skill.texts && skill.texts.map((text, _i) =>
 									[

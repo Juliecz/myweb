@@ -5,23 +5,23 @@ const initialState = {
 			types: [
 				{
 					name: 'Frontend',
-					texts: ['react', 'redux', 'angularJS', 'jQuery', 'pixiJS', 'HTML5', 'CSS3', 'bootstrap']
+					texts: ['React', 'Redux', 'AngularJS', 'jQuery', 'PixiJS', 'HTML5', 'CSS3', 'Bootstrap']
 				},
 				{
 					name: 'Backend',
-					texts: ['node.js', 'c#']
+					texts: ['Node.js', 'C#']
 				},
 				{
 					name: 'Operating systems',
-					texts: ['mac OS', 'linux', 'windows']
+					texts: ['Mac OS', 'Linux', 'Windows']
 				},
 				{
 					name: 'Databases',
-					texts: ['postgreSQL', 'mongoDB', 'MSSQL']
+					texts: ['PostgreSQL', 'MongoDB', 'MSSQL']
 				},
 				{
 					name: 'DevOps',
-					texts: ['git', 'heroku']
+					texts: ['GIT', 'Heroku']
 				}
 			]
 		},
@@ -30,7 +30,7 @@ const initialState = {
 			types: [
 				{
 					name: 'Czech',
-					percent: 85,
+					percent: 90,
 					texts: ['fluent (speaking, reading, writing)']
 				},
 				{

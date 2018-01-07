@@ -16,9 +16,9 @@ const MyProjects = (props) => {
 		<div className="myprojects">
 			
 			<div className="myprojects-left">
-				<h2 className="myprojects-title">
+				<h3 className="myprojects-title">
 					MY PROJECTS
-				</h2>
+				</h3>
 				{projects &&
 				sortByProjectOrder(
 					projects.filter((project) => project.order%2===0)
@@ -42,7 +42,6 @@ const MyProjects = (props) => {
 							{...project}
 						/>)
 				}
-				{projects && projects.map(() => {})}
 			</div>
 		</div>
 	);
