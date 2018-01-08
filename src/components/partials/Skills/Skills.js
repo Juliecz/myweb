@@ -27,7 +27,7 @@ const Skills = ({ skills }) => {
 						>
 							<h5 className="skills-block-title">
 								<span>
-									<img src={ListStyle} alt="List style"/>
+									<img src={ListStyle} alt="Skills"/>
 								</span>{skill.name}
 							</h5>
 							<div className="skills-block-texts">
