@@ -17,7 +17,7 @@ const initialState = {
 				},
 				{
 					name: 'Databases',
-					texts: ['PostgreSQL', 'MongoDB', 'MSSQL']
+					texts: ['PostgreSQL', 'MongoDB', 'MSSQL', 'Sequelize']
 				},
 				{
 					name: 'DevOps',
