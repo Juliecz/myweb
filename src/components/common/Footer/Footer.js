@@ -5,7 +5,7 @@ import './style.css';
 class Footer extends PureComponent {
 	render() {
 		return (<div className="footer">
-			2018 Yuliya Ovchinnikova
+			2019 Yuliya Ovchinnikova
 		</div>);
 	}
 }

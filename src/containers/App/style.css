@@ -18,8 +18,18 @@ body {
     width: 100%;
 }
 
+h3 {
+    padding: 20px;
+    text-align: left;
+}
+
+
+
 @media (max-width: 800px) {
     body {
         overflow-x: hidden;
+    }
+    h3 {
+        text-align: center;
     }
 }
