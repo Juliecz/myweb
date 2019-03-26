@@ -5,13 +5,22 @@ import './style.css';
 
 class Project extends Component {
   render() {
-    const { header, text, image } = this.props;
+    const { header, year, text, image } = this.props;
     
     return (
       <div className="block-project">
         <img src={image} alt={header} />
-        <h5>{header}</h5>
-        <p>{text}</p>
+
+        <div className="block-project-header">
+          <h5>
+            {header}
+          </h5>
+          {year && <span>{year}</span>}
+        </div>
+
+        <p className="block-project-text">
+          {text}
+        </p>
       </div>
     )
   }
@@ -19,6 +28,7 @@ class Project extends Component {
 
 Project.propTypes = {
   header: PropTypes.string.isRequired,
+  year: PropTypes.string,
   text: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
 };
