@@ -3,11 +3,17 @@ import { connect } from 'react-redux';
 
 import * as selectorsAboutMe from '../selectors/aboutme';
 
-import About from '../components/common/AboutMe/AboutMe';
+import Skills from "../components/Skills/Skills";
 
 class AboutMe extends PureComponent {
 	render() {
-		return <About {...this.props.aboutme} />;
+		const { skills } = this.props.aboutme;
+		
+		return (<div className="aboutme">
+			{ skills &&
+			<Skills skills={skills} />
+			}
+		</div>);
 	}
 }
 

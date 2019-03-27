@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as Icons from 'react-icons/lib/fa';
 
-import Tag from '../Tag/Tag';
-import ProgressBar from '../ProgressBar/ProgressBar';
-import ListStyle from '../../../assets/list-style.png';
+import Tag from '../partials/Tag/Tag';
+import ProgressBar from '../partials/ProgressBar/ProgressBar';
+import ListStyle from '../../assets/list-style.png';
 import './style.css';
 
 const Skills = ({ skills }) => {

@@ -9,7 +9,6 @@ import registerServiceWorker from './registerServiceWorker';
 
 import App from './containers/App/App';
 import Main from './containers/Main';
-import Test from './containers/Test';
 
 const history = syncHistoryWithStore(browserHistory, store);
 
@@ -18,7 +17,7 @@ ReactDOM.render(
 		<Router history={history}>
 			<Route path="/" component={App}>
 				<IndexRoute components={Main}/>
-				<Route path="/test" components={Test}/>
+				{/*<Route path="/test" components={Test}/>*/}
 			</Route>
 		</Router>
 	</Provider>,

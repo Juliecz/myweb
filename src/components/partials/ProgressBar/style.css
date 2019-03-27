@@ -1,6 +1,14 @@
 .progressbar {
 }
 
+.progressbar > div {
+    color: #3f3a37;
+}
+
+.progressbar p {
+    color: #52313187;
+}
+
 #progressbar-img {
     width: 200px;
     height: 120px;

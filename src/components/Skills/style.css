@@ -3,7 +3,8 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    width: 92%;
+    width: 100%;
+    max-width: 1200px;
     min-width: 780px;
     margin: auto;
 }
@@ -40,6 +41,7 @@
 
 .skills-block-title {
     font-weight: 600;
+    color: #3f3a37;
 }
 
 .skills-block-title > span img {
@@ -52,6 +54,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    color: #52313187;
 }
 
 @media (max-width: 800px) {

@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import * as selectorsRouting from '../../selectors/routing';
 import * as selectorsApp from '../../selectors/app';
 
-import Header from '../../components/common/Header/Header';
-import Footer from '../../components/common/Footer/Footer';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 import './style.css';
 
 class App extends Component {

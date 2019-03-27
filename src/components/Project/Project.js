@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import './style.css';
 
-class Project extends Component {
+class Project extends PureComponent {
   render() {
     const { header, year, text, image } = this.props;
     
