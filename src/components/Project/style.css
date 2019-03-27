@@ -1,7 +1,6 @@
 .block-project {
     width: 90%;
     max-width: 350px;
-    text-align: left;
     display: inline-block;
     margin: 0 0 1em;
     padding: 10px;
@@ -22,6 +21,7 @@
 
 .block-project-text {
     color: #52313187;
+    text-align: left;
 }
 
 .block-project img {
