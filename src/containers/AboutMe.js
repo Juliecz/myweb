@@ -1,13 +1,11 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 
-import * as selectorsAboutMe from '../selectors/aboutme';
-
 import Skills from "../components/Skills/Skills";
 
 class AboutMe extends PureComponent {
 	render() {
-		const { skills } = this.props.aboutme;
+		const { skills } = this.props;
 		
 		return (<div className="aboutme">
 			{ skills &&
@@ -18,9 +16,7 @@ class AboutMe extends PureComponent {
 }
 
 const mapStateToProps = (state) => ({
-	aboutme: selectorsAboutMe.selectAboutMe(state)
+	skills: state.app.skills
 });
 
-const mapDispatchToProps = (dispatch) => ({ });
-
-export default connect(mapStateToProps, mapDispatchToProps)(AboutMe);
+export default connect(mapStateToProps, null)(AboutMe);

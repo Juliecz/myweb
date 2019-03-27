@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as Icons from 'react-icons/lib/fa';
 
-import Tag from '../partials/Tag/Tag';
-import ProgressBar from '../partials/ProgressBar/ProgressBar';
+import ProgressBar from '../ProgressBar/ProgressBar';
 import ListStyle from '../../assets/list-style.png';
 import './style.css';
 
@@ -33,10 +32,14 @@ const Skills = ({ skills }) => {
 							<div className="skills-block-texts">
 								{skill.texts && skill.texts.map((text, _i) =>
 									[
-										<Tag
-											key={`text_${_i}`}
-											text={text}
-										/>,
+										<span
+											key={`tag_span_${_i}`}
+											style={{
+												maxHeight: '40px',
+												padding: '2px',
+												margin: '2px',
+											}}
+										>{text}</span>,
 										_i !== skill.texts.length-1 &&
 										<span
 											key={`text_span_${_i}`}
@@ -61,7 +64,7 @@ const Skills = ({ skills }) => {
 				</h3>
 				<div className="skills-lang-progress">
 					{lang.types && lang.types.map((type, i) =>
-						<ProgressBar {...type} />
+						<ProgressBar {...type} key={`progress-bar${i}`}/>
 					)}
 				</div>
 			</div>

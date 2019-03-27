@@ -1,8 +1,7 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 
-import * as selectorsMyProjects from '../../selectors/myprojects';
-import Project from "../../components/partials/Project/Project";
+import Project from "./Project/Project";
 
 import './style.css';
 
@@ -54,9 +53,7 @@ class MyProjects extends PureComponent {
 }
 
 const mapStateToProps = (state) => ({
-	myprojects: selectorsMyProjects.selectMyProjects(state)
+	myprojects: state.app.myprojects
 });
 
-const mapDispatchToProps = (dispatch) => ({ });
-
-export default connect(mapStateToProps, mapDispatchToProps)(MyProjects);
+export default connect(mapStateToProps, null)(MyProjects);

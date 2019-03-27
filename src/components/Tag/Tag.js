@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './style.css';
+// import './style.css';
 
-const Skills = ({ text }) => (
+const Tag = ({ text }) => (
 	<span className="tag">{text}</span>
 );
 
-Skills.propTypes = {
+Tag.propTypes = {
 	text: PropTypes.string.isRequired
 };
 
-export default Skills;
+export default Tag;
