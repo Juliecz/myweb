@@ -16,11 +16,6 @@
     margin: auto;
 }
 
-.banner-title hr {
-    width: 100px;
-    padding-top: 10px;
-}
-
 .banner-photo {
     padding-bottom: 40px;
     flex: 1;
@@ -54,14 +49,18 @@
     .banner {
         flex-direction: column-reverse;
         justify-content: center;
+        margin: 30px 0 30px 0;
         /*padding: 50px;*/
     }
 
     .banner-title-big {
         font-weight: 600;
     }
+    .banner-title-big a {
+        white-space: pre-wrap;
+    }
     .banner-title {
-        margin: unset;
+        margin: 0;
     }
 
     .banner-photo {
@@ -69,7 +68,7 @@
     }
 }
 @media (max-width: 400px) {
-    .banner-title-big {
+    .banner-title-big a {
     }
     .banner-title-small {
     }

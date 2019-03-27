@@ -11,12 +11,18 @@
     justify-content: space-between;
     padding: 20px 7px 10px 7px;
     color: #3f3a37;
+    flex-direction: column;
+}
+
+.block-project-header > h5 {
+    text-align: left;
 }
 
 .block-project-header > span {
     text-align: right;
     color: #52313187;
     line-height: 2;
+    margin-top: -15px;
 }
 
 .block-project-text {

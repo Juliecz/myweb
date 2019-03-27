@@ -1,10 +1,10 @@
 .footer {
     min-height: 60px;
     background-color: #3f3a37;
-    border-top: 1px solid rgb(249, 210, 54);
+    border-top: 1px solid rgba(178, 164, 164, 0.54);
     background-clip: content-box;
     box-shadow: 0 0 0 4px #3f3a37;
-    color: #f8f8f8;
+    color: #bdb2b2;
     width: 100%;
     display: flex;
     justify-content: center;

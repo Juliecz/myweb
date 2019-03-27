@@ -11,13 +11,13 @@ const Skills = ({ skills }) => {
 	return (
 		<div className="skills">
 			<div className="skills-tech skills-common">
-				<h3>
+				<h4>
 					<Icons.FaLaptop
 						size={30}
 						className="skills-icon"
 					/>
 					TECHNICAL SKILLS
-				</h3>
+				</h4>
 				<ul className="skills-blocks">
 					{ tech && tech.types && tech.types.map((skill, i) =>
 						(<li
@@ -55,13 +55,13 @@ const Skills = ({ skills }) => {
 				</ul>
 			</div>
 			<div className="skills-lang skills-common">
-				<h3>
+				<h4>
 					<Icons.FaComments
 						size={30}
 						className="skills-icon"
 					/>
 					{lang.name.toUpperCase()}
-				</h3>
+				</h4>
 				<div className="skills-lang-progress">
 					{lang.types && lang.types.map((type, i) =>
 						<ProgressBar {...type} key={`progress-bar${i}`}/>

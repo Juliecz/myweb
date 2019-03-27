@@ -10,19 +10,19 @@ class MyWork extends PureComponent {
     return (
       <div className="mywork">
         <div className="mywork-header">
-          <h3>My work</h3>
+          <h4>My work</h4>
         </div>
         <div className="mywork-projects">
           <Project
             header="E.ON Solar - DE, UK"
             year="2017-2019"
-            text="Creative Dock - ..."
+            text="Creative Dock - Technologie: React, Redux, Reflux, Node.js, AngularJS, Adobe Experience Manager, WordPress"
             image={images.eonsolarde}
           />
           <Project
             header="E.ON Solar - DE, UK"
             year="2017-2019"
-            text="Creative Dock - ..."
+            text="Creative Dock - Technologie: React, Redux, Reflux, Node.js, AngularJS, Adobe Experience Manager, WordPress"
             image={images.eonde}
           />
           <Project

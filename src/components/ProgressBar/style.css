@@ -1,4 +1,5 @@
 .progressbar {
+    margin-bottom: 20px;
 }
 
 .progressbar > div {
@@ -21,4 +22,5 @@
 .progress {
     height: 5px;
     width: 98%;
+    margin-top: -10px;
 }
