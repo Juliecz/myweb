@@ -21,13 +21,13 @@ class Header extends PureComponent {
 						Full-Stack JavaScript Developer
 					</p>
 				</div>
-				<div className="banner-photo">
-					<img
-						src={me}
-						align="left"
-						alt="Yuliya Ovchinnikova"
-					/>
-				</div>
+				{/*<div className="banner-photo">*/}
+				{/*	<img*/}
+				{/*		src={me}*/}
+				{/*		align="left"*/}
+				{/*		alt="Yuliya Ovchinnikova"*/}
+				{/*	/>*/}
+				{/*</div>*/}
 			</div>
 		</header>);
 	}
