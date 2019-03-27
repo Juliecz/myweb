@@ -32,12 +32,10 @@
 }
 
 .banner-title-big {
-    font-size: 55px;
     font-weight: 600;
 }
 
 .banner-title-small {
-    font-size: 18px;
     color: rgb(242, 182, 50);
 }
 
@@ -60,7 +58,6 @@
     }
 
     .banner-title-big {
-        font-size: 40px;
         font-weight: 600;
     }
     .banner-title {
@@ -73,9 +70,7 @@
 }
 @media (max-width: 400px) {
     .banner-title-big {
-        font-size: 30px;
     }
     .banner-title-small {
-        font-size: 15px;
     }
 }
