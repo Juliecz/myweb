@@ -18,21 +18,40 @@ class MyWork extends PureComponent {
             year="2017-2019"
             text="Creative Dock - Technologie: React, Redux, Reflux, Node.js, AngularJS, Adobe Experience Manager, WordPress."
             image={images.eonsolarde}
-            link={['https://eon-solar.de', 'https://eon-solar.co.uk']}
+            links={[
+              {
+                url: 'https://eon-solar.de',
+                text: 'E.ON Solar DE',
+              },
+              {
+                url: 'https://eon-solar.co.uk',
+                text: 'E.ON Solar UK',
+              }
+            ]}
           />
           <Project
             header="E.ON Solar - DE, UK"
             year="2017-2019"
             text="Creative Dock - Technologie: React, Redux, Reflux, Node.js, AngularJS, Adobe Experience Manager, WordPress."
             image={images.eonde}
-            link={['https://www.eon.de/de/pk/solar/photovoltaik-rechner.html#/step/1']}
+            links={[
+              {
+                url: 'https://www.eon.de/de/pk/solar/photovoltaik-rechner.html',
+                text: 'E.ON DE',
+              }
+            ]}
           />
           <Project
             header="Cookbook"
             year="2018"
             text="Vlastní projekt - Online kuchařka. Používané technologie: React, Redux, Node.js, MongoDB."
             image={images.cookbook}
-            link={['https://gamee-cookbook.herokuapp.com/']}
+            links={[
+              {
+                url: 'https://gamee-cookbook.herokuapp.com/',
+                text: 'Cookbook',
+              }
+            ]}
           />
           <Project
             header="Holmes Place - PT, FR"
@@ -51,14 +70,24 @@ class MyWork extends PureComponent {
             year="2015-2016"
             text="Bakalářská práce - Aplikace napsána v Javascriptu na základě SPA architektury s použitím AngularJS. Na backendu jsou používáné Node.js a MongoDB."
             image={images.veganrestaurant}
-            link={['http://vegan-restaurant.herokuapp.com/']}
+            links={[
+              {
+                url: 'http://vegan-restaurant.herokuapp.com/',
+                text: 'Vegan rest',
+              }
+            ]}
           />
           <Project
             header="Sudoku game"
             year="2016"
             text="Vlastní projekt - Logická hra, vytvořená pomocí Javascriptu a AngularJS."
             image={images.sudokugame}
-            link={['http://yuliya.cz/sudokugame/']}
+            links={[
+              {
+                url: 'http://yuliya.cz/sudokugame/',
+                text: 'Sudoku',
+              }
+            ]}
           />
         </div>
       </div>
