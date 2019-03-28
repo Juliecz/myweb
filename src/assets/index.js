@@ -4,6 +4,8 @@ import crabgame from './crabgame.png';
 import dsp from './dsp.png';
 import sudokugame from './sudokugame.png';
 import veganrestaurant from './veganrestaurant.png';
+import eonde from './eonde.png';
+import eonsolarde from './eonsolarde.png';
 
 export {
 	cookbook,
@@ -11,5 +13,7 @@ export {
 	crabgame,
 	dsp,
 	sudokugame,
-	veganrestaurant
+	veganrestaurant,
+	eonde,
+	eonsolarde,
 }

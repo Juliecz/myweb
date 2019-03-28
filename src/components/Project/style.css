@@ -1,0 +1,41 @@
+.block-project {
+    width: 90%;
+    max-width: 350px;
+    display: inline-block;
+    margin: 0 0 1em;
+    padding: 10px;
+}
+
+.block-project-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 7px 10px 7px;
+    color: #3f3a37;
+    flex-direction: column;
+}
+
+.block-project-header > h5 {
+    text-align: left;
+}
+
+.block-project-header > span {
+    text-align: right;
+    color: #52313187;
+    line-height: 2;
+    margin-top: -15px;
+}
+
+.block-project-text {
+    color: #52313187;
+    text-align: left;
+}
+
+.block-project img {
+    width: 100%;
+}
+
+.block-project-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px 0 10px 0;
+}

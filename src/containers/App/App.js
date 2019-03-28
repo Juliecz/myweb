@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import * as selectorsRouting from '../../selectors/routing';
-import * as selectorsApp from '../../selectors/app';
-
-import Header from '../../components/common/Header/Header';
-import Footer from '../../components/common/Footer/Footer';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 import './style.css';
 
 class App extends Component {
@@ -25,10 +22,8 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => ({
-	app: selectorsApp.selectApp(state),
-	location: selectorsRouting.selectCurrentLocation(state)
+	app: state.app,
+	location: state.location
 });
 
-const mapDispatchToProps = (dispatch) => ({});
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, null)(App);

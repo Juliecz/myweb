@@ -1,0 +1,26 @@
+.progressbar {
+    margin-bottom: 20px;
+}
+
+.progressbar > div {
+    color: #3f3a37;
+}
+
+.progressbar p {
+    color: #52313187;
+}
+
+#progressbar-img {
+    width: 200px;
+    height: 120px;
+    text-align: center;
+}
+
+.skills-lang-progress .progress-bar {
+    background: rgba(242, 182, 50, 0.86);
+}
+.progress {
+    height: 5px;
+    width: 98%;
+    margin-top: -10px;
+}
