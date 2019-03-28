@@ -14,7 +14,7 @@ class Header extends PureComponent {
 			<div className="banner">
 				<div className="banner-title">
 					<h1 className="banner-title-big">
-						<Link to="/"> Yuliya Ovchinnikova </Link>
+						Yuliya Ovchinnikova
 					</h1>
 					<p className="banner-title-small">
 						Full-Stack JavaScript Developer
