@@ -30,18 +30,6 @@ class MyWork extends PureComponent {
             ]}
           />
           <Project
-            header="E.ON Solar - DE, UK"
-            year="2017-2019"
-            text="Creative Dock - Technologie: React, Redux, Reflux, Node.js, AngularJS, Adobe Experience Manager, WordPress."
-            image={images.eonde}
-            links={[
-              {
-                url: 'https://www.eon.de/de/pk/solar/photovoltaik-rechner.html',
-                text: 'E.ON DE',
-              }
-            ]}
-          />
-          <Project
             header="Cookbook"
             year="2018"
             text="Vlastní projekt - Online kuchařka. Používané technologie: React, Redux, Node.js, MongoDB."
@@ -54,16 +42,22 @@ class MyWork extends PureComponent {
             ]}
           />
           <Project
-            header="Holmes Place - PT, FR"
-            year="2016-2017"
-            text="Fox Media Czech Republic - Digital sales process. Používané technologie: React, Redux, Node.js."
-            image={images.dsp}
+            header="E.ON Solar - DE"
+            year="2017-2019"
+            text="Creative Dock - Technologie: React, Redux, Reflux, Node.js, Adobe Experience Manager, WordPress."
+            image={images.eonde}
+            links={[
+              {
+                url: 'https://www.eon.de/de/pk/solar/photovoltaik-rechner.html',
+                text: 'E.ON DE Calculator',
+              }
+            ]}
           />
           <Project
             header="Holmes Place - PT, FR"
             year="2016-2017"
-            text="Fox Media Czech Republic - Composer pro skládání stránek z jednotlivých komponent. Používané technologie: React, Redux, Node.js."
-            image={images.composer}
+            text="Fox Media Czech Republic - Digital sales process. Používané technologie: React, Redux, Node.js."
+            image={images.dsp}
           />
           <Project
             header="Vegan restaurant"
@@ -76,6 +70,29 @@ class MyWork extends PureComponent {
                 text: 'Vegan rest',
               }
             ]}
+          />
+          <Project
+            header="E.ON Solar - UK"
+            year="2017-2019"
+            text="Creative Dock - Technologie: React, Redux, Node.js, Adobe Experience Manager, WordPress."
+            image={images.eonenergy}
+            links={[
+              {
+                url: 'https://www.eonenergy.com/solar/solar-panels.html#solar-calculator',
+                text: 'E.ON UK Calculator',
+              },
+              // link to contact form
+              // {
+              //   url: 'https://www.eonenergy.com/solar/battery-storage.html#solar-form',
+              //   text: 'E.ON UK Form',
+              // }
+            ]}
+          />
+          <Project
+            header="Holmes Place - PT, FR"
+            year="2016-2017"
+            text="Fox Media Czech Republic - Composer pro skládání stránek z jednotlivých komponent. Používané technologie: React, Redux, Node.js."
+            image={images.composer}
           />
           <Project
             header="Sudoku game"

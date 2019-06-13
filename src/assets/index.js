@@ -5,6 +5,7 @@ import dsp from './dsp.png';
 import sudokugame from './sudokugame.png';
 import veganrestaurant from './veganrestaurant.png';
 import eonde from './eonde.png';
+import eonenergy from './eonenergy.png';
 import eonsolarde from './eonsolarde.png';
 
 export {
@@ -15,5 +16,6 @@ export {
 	sudokugame,
 	veganrestaurant,
 	eonde,
+	eonenergy,
 	eonsolarde,
 }
