@@ -14,19 +14,31 @@ class MyWork extends PureComponent {
         </div>
         <div className="mywork-projects">
           <Project
+            header="Available flights"
+            year="2019"
+            text="Available flights - Technologies: React (React hooks), Redux, Typescript, Less"
+            image={images.flights}
+            links={[
+              {
+                url: 'https://kindred-test.herokuapp.com/',
+                text: 'Flights',
+              }
+            ]}
+          />
+          <Project
             header="E.ON Solar - DE, UK"
             year="2017-2019"
             text="Creative Dock - Technologie: React, Redux, Reflux, Node.js, AngularJS, Adobe Experience Manager, WordPress."
             image={images.eonsolarde}
             links={[
-              {
-                url: 'https://eon-solar.de',
-                text: 'E.ON Solar DE',
-              },
-              {
-                url: 'https://eon-solar.co.uk',
-                text: 'E.ON Solar UK',
-              }
+              // {
+              //   url: 'https://eon-solar.de',
+              //   text: 'E.ON Solar DE',
+              // },
+              // {
+              //   url: 'https://eon-solar.co.uk',
+              //   text: 'E.ON Solar UK',
+              // }
             ]}
           />
           <Project

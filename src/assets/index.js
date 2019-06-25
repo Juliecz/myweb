@@ -7,6 +7,7 @@ import veganrestaurant from './veganrestaurant.png';
 import eonde from './eonde.png';
 import eonenergy from './eonenergy.png';
 import eonsolarde from './eonsolarde.png';
+import flights from './flights.png';
 
 export {
 	cookbook,
@@ -18,4 +19,5 @@ export {
 	eonde,
 	eonenergy,
 	eonsolarde,
+	flights,
 }
