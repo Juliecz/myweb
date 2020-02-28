@@ -9,13 +9,13 @@ export default () =>
 		
 		</div>
 		<div className="topbar-social">
-			<a href="https://www.linkedin.com/in/juliecz" target="_blank">
+			<a href="https://www.linkedin.com/in/yuliyacz" target="_blank">
 				<Icons.FaLinkedin
 					size={27}
 					className="topbar-social-icon"
 				/>
 			</a>
-			<a href="https://github.com/juliecz/" target="_blank">
+			<a href="https://github.com/yuliyacz" target="_blank">
 				<Icons.FaGithub
 					size={27}
 					className="topbar-social-icon"
